@@ -1,0 +1,1 @@
+{"functions":[{"bundler":"esbuild","buildData":{"runtimeAPIVersion":1},"mainFile":"C:\\news_pwa\\knews-119\\netlify\\functions\\feed.mjs","name":"feed","priority":10,"runtimeVersion":"nodejs22.x","path":"C:\\news_pwa\\knews-119\\.netlify\\functions\\feed.zip","runtime":"js"}],"system":{"arch":"x64","platform":"win32"},"timestamp":1757176502101,"version":1}
