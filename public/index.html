@@ -1,1 +1,1 @@
-<html><body><h1>K-News</h1><script>fetch('/feed.json').then(r=>r.json()).then(d=>document.body.innerHTML+=d.items.map(i=>`<p>${i.title}</p>`).join(''))</script></body></html> 
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>K-News</title></head><body><h1>K-News</h1><div id="news"></div><script>fetch('/feed.json').then(r=>r.json()).then(d=>{document.getElementById('news').innerHTML=d.items.map(i=>`<p>${i.title}</p>`).join('')})</script></body></html> 
